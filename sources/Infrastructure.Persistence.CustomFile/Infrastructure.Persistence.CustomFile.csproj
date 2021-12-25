@@ -22,4 +22,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>..\commandorix-vardirsoft.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure.Persistence.Abstractions\Infrastructure.Persistence.Abstractions.csproj" />
+  </ItemGroup>
 </Project>

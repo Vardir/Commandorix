@@ -26,4 +26,17 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Command\Application.Command.csproj" />
+    <ProjectReference Include="..\DomainServices.Abstractions\DomainServices.Abstractions.csproj" />
+    <ProjectReference Include="..\DomainServices\DomainServices.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\Infrastructure.Persistence.Abstractions\Infrastructure.Persistence.Abstractions.csproj" />
+    <ProjectReference Include="..\Infrastructure.Persistence.CustomFile\Infrastructure.Persistence.CustomFile.csproj" />
+    <ProjectReference Include="..\Infrastructure.Services.Abstractions\Infrastructure.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\Infrastructure.Services.Windows\Infrastructure.Services.Windows.csproj" Condition=" '$(OS)' == 'Windows_NT' " />
+    <ProjectReference Include="..\Infrastructure.Services\Infrastructure.Services.csproj" />
+    <ProjectReference Include="..\Utils\Utils.csproj" />
+  </ItemGroup>
 </Project>

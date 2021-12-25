@@ -18,4 +18,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application.Command\Application.Command.csproj" />
+    <ProjectReference Include="..\Infrastructure.Persistence.Abstractions\Infrastructure.Persistence.Abstractions.csproj" />
+    <ProjectReference Include="..\Infrastructure.Services.Abstractions\Infrastructure.Services.Abstractions.csproj" />
+  </ItemGroup>
 </Project>

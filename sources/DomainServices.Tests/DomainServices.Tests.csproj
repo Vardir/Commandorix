@@ -17,4 +17,10 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
   </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DomainServices.Abstractions\DomainServices.Abstractions.csproj" />
+    <ProjectReference Include="..\DomainServices\DomainServices.csproj" />
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+  </ItemGroup>
 </Project>
