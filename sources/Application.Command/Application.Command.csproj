@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Vardirsoft.Commandorix.Application.Command</AssemblyName>
+    <RootNamespace>Vardirsoft.Commandorix.Application.Command</RootNamespace>
+    <PackageId>Vardirsoft.Commandorix.Application.Command</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Title>Commandorix - Application.Command</Title>
+    <Authors>Vardir</Authors>
+    <Copyright>Copyright © 2021 Andrew Satura</Copyright>
+    <PackageProjectUrl>https://github.com/Vardir/MyCMD</PackageProjectUrl>
+    <PackageLicenseUrl>MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Vardir/MyCMD</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>commandorix application command</PackageTags>
+    <Company>Vardirisoft</Company>
+    <Product>Commandorix Application.Command</Product>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\commandorix-vardirsoft.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+</Project>

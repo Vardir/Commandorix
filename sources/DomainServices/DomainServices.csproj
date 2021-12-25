@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>    
+    <AssemblyName>Vardirsoft.Commandorix.DomainServices</AssemblyName>
+    <RootNamespace>Vardirsoft.Commandorix.DomainServices</RootNamespace>
+    <PackageId>Vardirsoft.Commandorix.DomainServices</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Title>Commandorix - DomainServices</Title>
+    <Authors>Vardir</Authors>
+    <Copyright>Copyright © 2021 Andrew Satura</Copyright>
+    <PackageProjectUrl>https://github.com/Vardir/MyCMD</PackageProjectUrl>
+    <PackageLicenseUrl>MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Vardir/MyCMD</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>commandorix domain services</PackageTags>
+    <Company>Vardirisoft</Company>
+    <Product>Commandorix DomainServices</Product>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\commandorix-vardirsoft.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+</Project>

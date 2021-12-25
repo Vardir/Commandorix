@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Vardirsoft.Commandorix.Persistence.Abstractions</AssemblyName>
+    <RootNamespace>Vardirsoft.Commandorix.Persistence</RootNamespace>
+    <PackageId>Vardirsoft.Commandorix.Persistence.Abstractions</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Title>Commandorix - Persistence Abstractions</Title>
+    <Authors>Vardir</Authors>
+    <Copyright>Copyright © 2021 Andrew Satura</Copyright>
+    <PackageProjectUrl>https://github.com/Vardir/MyCMD</PackageProjectUrl>
+    <PackageLicenseUrl>MIT</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/Vardir/MyCMD</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>commandorix infrastructure persistence abstractions</PackageTags>
+    <Company>Vardirisoft</Company>
+    <Product>Commandorix Persistence Abstractions</Product>
+    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <FileVersion>0.1.0</FileVersion>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\commandorix-vardirsoft.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+</Project>
