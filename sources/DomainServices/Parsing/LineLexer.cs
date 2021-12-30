@@ -20,7 +20,7 @@ public sealed class LineLexer : ILexer
     if (input.IsEmpty)
       return TokenizationResult.Empty;
 
-    var tokensList = new List<Token>(10);
+    var tokensList = new List<Token>(input.Length / 3);
 
     for (var index = position; index < input.Length;)
     {
