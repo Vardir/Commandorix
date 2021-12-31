@@ -1,6 +1,8 @@
 ﻿using BenchmarkDotNet.Attributes;
 
+using Vardirsoft.Commandorix.DomainServices.Lexing;
 using Vardirsoft.Commandorix.DomainServices.Parsing;
+using Vardirsoft.Commandorix.Entities.Tokens;
 
 namespace DomainServices.Benchmarks.Parsing;
 

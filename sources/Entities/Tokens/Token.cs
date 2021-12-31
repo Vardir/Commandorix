@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Vardirsoft.Commandorix.Entities.Parsing;
+namespace Vardirsoft.Commandorix.Entities.Tokens;
 
 [DebuggerDisplay("{Kind} (line:{Line},pos:{Position},len:{Length}) err:{Error}")]
 public readonly struct Token

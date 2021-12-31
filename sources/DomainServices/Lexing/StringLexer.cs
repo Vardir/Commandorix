@@ -1,9 +1,9 @@
 ﻿using System;
 
-using Vardirsoft.Commandorix.Entities.Parsing;
+using Vardirsoft.Commandorix.Entities.Tokens;
 using Vardirsoft.Commandorix.Utils.Helpers;
 
-namespace Vardirsoft.Commandorix.DomainServices.Parsing;
+namespace Vardirsoft.Commandorix.DomainServices.Lexing;
 
 public sealed class StringLexer : IStringLexer
 {

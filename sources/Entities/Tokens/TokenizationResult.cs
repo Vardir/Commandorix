@@ -1,24 +1,6 @@
-﻿using System;
-using System.Collections.Immutable;
+﻿using System.Collections.Immutable;
 
-using Vardirsoft.Commandorix.Entities.Parsing;
-
-namespace Vardirsoft.Commandorix.DomainServices.Parsing;
-
-public interface ILexer
-{
-  TokenizationResult Tokenize(in ReadOnlySpan<char> input, ushort line, ushort position = 0);
-}
-
-public interface ILiteralLexer
-{
-  Token Tokenize(in ReadOnlySpan<char> input, ushort line, ushort position);
-}
-
-public interface IStringLexer
-{
-  Token Tokenize(in ReadOnlySpan<char> input, ushort line, ushort position);
-}
+namespace Vardirsoft.Commandorix.Entities.Tokens;
 
 public readonly ref struct TokenizationResult
 {

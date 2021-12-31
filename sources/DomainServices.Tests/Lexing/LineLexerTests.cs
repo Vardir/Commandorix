@@ -2,12 +2,13 @@
 
 using NSubstitute;
 
+using Vardirsoft.Commandorix.DomainServices.Lexing;
 using Vardirsoft.Commandorix.DomainServices.Parsing;
-using Vardirsoft.Commandorix.Entities.Parsing;
+using Vardirsoft.Commandorix.Entities.Tokens;
 
 using Xunit;
 
-namespace DomainServices.Tests.Parsing;
+namespace DomainServices.Tests.Lexing;
 
 public sealed class LineLexerTests
 {

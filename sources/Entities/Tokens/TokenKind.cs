@@ -1,4 +1,4 @@
-﻿namespace Vardirsoft.Commandorix.Entities.Parsing;
+﻿namespace Vardirsoft.Commandorix.Entities.Tokens;
 
 public enum TokenKind : byte
 {

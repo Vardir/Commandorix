@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Collections.Immutable;
 
-using Vardirsoft.Commandorix.Entities.Parsing;
+using Vardirsoft.Commandorix.Entities.Tokens;
 
-namespace Vardirsoft.Commandorix.DomainServices.Parsing;
+namespace Vardirsoft.Commandorix.DomainServices.Lexing;
 
 public sealed class LineLexer : ILexer
 {
