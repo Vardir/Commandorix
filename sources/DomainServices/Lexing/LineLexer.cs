@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
+using System.Runtime.InteropServices;
 
 using Vardirsoft.Commandorix.Entities.Tokens;
 
@@ -51,7 +51,7 @@ public sealed class LineLexer : ILexer
       tokensList.Add(token);
 
       if (token.Error is not LexingError.None)
-        return TokenizationResult.AsError(token.Position, (ushort)(token.Position + token.Length), tokensList.ToImmutableArray());
+        return TokenizationResult.AsError(token.Position, (ushort)(token.Position + token.Length), CollectionsMarshal.AsSpan(tokensList));
 
       if (token.Kind is TokenKind.EndOfLine)
         break;
@@ -64,7 +64,7 @@ public sealed class LineLexer : ILexer
       tokensList.Add(Token.EndOfLine(line, (ushort)input.Length));
     }
 
-    return TokenizationResult.AsFinal(tokensList.ToImmutableArray());
+    return TokenizationResult.AsFinal(CollectionsMarshal.AsSpan(tokensList));
   }
 
   private static Token ConsumeWhitespace(in ReadOnlySpan<char> input, ushort position, ushort line)

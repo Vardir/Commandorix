@@ -57,7 +57,7 @@ public sealed class LineLexerTests
 
     result.Success.Should().BeTrue();
     result.IsEmpty.Should().BeFalse();
-    result.Tokens.Should().BeEquivalentTo(expectedTokens);
+    result.Tokens.ToArray().Should().BeEquivalentTo(expectedTokens);
   }
 
   [Fact]
@@ -103,7 +103,7 @@ public sealed class LineLexerTests
 
     result.Success.Should().BeTrue();
     result.IsEmpty.Should().BeFalse();
-    result.Tokens.Should().BeEquivalentTo(expectedTokens);
+    result.Tokens.ToArray().Should().BeEquivalentTo(expectedTokens);
   }
 
   [Fact]
@@ -125,7 +125,7 @@ public sealed class LineLexerTests
 
     result.Success.Should().BeTrue();
     result.IsEmpty.Should().BeFalse();
-    result.Tokens.Should().BeEquivalentTo(expectedTokens);
+    result.Tokens.ToArray().Should().BeEquivalentTo(expectedTokens);
   }
 
   [Fact]
@@ -138,7 +138,7 @@ public sealed class LineLexerTests
 
     result.Success.Should().BeTrue();
     result.IsEmpty.Should().BeTrue();
-    result.Tokens.Should().BeEmpty();
+    result.Tokens.ToArray().Should().BeEmpty();
   }
 
   [Theory]
@@ -159,6 +159,6 @@ public sealed class LineLexerTests
 
     result.Success.Should().BeFalse();
     result.IsEmpty.Should().BeFalse();
-    result.Tokens.Should().BeEquivalentTo(expectedTokens);
+    result.Tokens.ToArray().Should().BeEquivalentTo(expectedTokens);
   }
 }
