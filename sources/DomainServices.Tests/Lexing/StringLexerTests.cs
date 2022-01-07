@@ -33,7 +33,7 @@ public sealed class StringLexerTests
   {
     var stringLexer = new StringLexer();
 
-    var expectedToken = new Token(1, 0, (ushort)input.Length, tokenKind);
+    var expectedToken = new Token(1, 0, 13, tokenKind);
 
     var result = stringLexer.Tokenize(input, 1, 0);
 

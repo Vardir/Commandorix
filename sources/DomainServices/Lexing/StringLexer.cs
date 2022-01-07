@@ -23,7 +23,7 @@ public sealed class StringLexer : IStringLexer
     {
       var currentChar = input[index];
 
-      if (input[index] is '\n' || currentChar == terminalSymbol && CharSequence.CountLeadingCharsVerbally(in input, '\\', index) is VerbalCount.None or VerbalCount.Even)
+      if (currentChar is '\n' || currentChar == terminalSymbol)
       {
         closed = currentChar == terminalSymbol;
 
