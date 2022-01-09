@@ -36,11 +36,3 @@ public enum TokenKind : byte
   Whitespace,
   EqualSign
 }
-
-public enum LexingError
-{
-  None,
-  ExpectedWhiteSpaceCharacter,
-  StringLiteralIsNotClosed,
-  Unknown,
-}

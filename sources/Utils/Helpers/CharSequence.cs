@@ -1,5 +1,7 @@
 ﻿using System;
 
+using Vardirsoft.Commandorix.Utils.Enums;
+
 namespace Vardirsoft.Commandorix.Utils.Helpers;
 
 public static class CharSequence
@@ -30,11 +32,4 @@ public static class CharSequence
 
     return level;
   }
-}
-
-public enum VerbalCount
-{
-  None,
-  Odd,
-  Even
 }

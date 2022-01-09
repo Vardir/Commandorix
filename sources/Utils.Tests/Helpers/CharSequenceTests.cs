@@ -1,5 +1,6 @@
 ﻿using FluentAssertions;
 
+using Vardirsoft.Commandorix.Utils.Enums;
 using Vardirsoft.Commandorix.Utils.Helpers;
 
 using Xunit;
